@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact JackSmack1971 - Get in touch via email or social media.">
+  <title>Contact - JackSmack1971</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
+  <header role="banner">
+    <nav aria-label="Primary navigation">
+      <div class="container">
+        <div class="nav-brand">
+          <a href="index.html">JackSmack1971</a>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <main id="main-content" role="main">
+    <div class="container">
+      <h1>Get in Touch</h1>
+      <p class="page-intro">
+        Have a question, collaboration idea, or just want to say hello? 
+        I'd love to hear from you!
+      </p>
+      
+      <div class="contact-content">
+        <!-- Contact Form -->
+        <section class="contact-form-section">
+          <h2>Send a Message</h2>
+          <form id="contactForm" class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="form-group">
+              <label for="name">Name <span class="required">*</span></label>
+              <input 
+                type="text" 
+                id="name" 
+                name="name" 
+                required 
+                autocomplete="name"
+                aria-required="true"
+              >
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email <span class="required">*</span></label>
+              <input 
+                type="email" 
+                id="email" 
+                name="email" 
+                required 
+                autocomplete="email"
+                aria-required="true"
+              >
+            </div>
+            
+            <div class="form-group">
+              <label for="subject">Subject <span class="required">*</span></label>
+              <input 
+                type="text" 
+                id="subject" 
+                name="subject" 
+                required
+                aria-required="true"
+              >
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Message <span class="required">*</span></label>
+              <textarea 
+                id="message" 
+                name="message" 
+                rows="6" 
+                required
+                aria-required="true"
+              ></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+          
+          <!-- Form submission feedback (hidden by default) -->
+          <div id="formFeedback" class="form-feedback" role="status" aria-live="polite"></div>
+        </section>
+        
+        <!-- Alternative Contact Methods -->
+        <aside class="contact-info">
+          <h2>Other Ways to Connect</h2>
+          
+          <div class="contact-methods">
+            <div class="contact-method">
+              <h3>GitHub</h3>
+              <p>
+                <a href="https://github.com/JackSmack1971" target="_blank" rel="noopener noreferrer">
+                  github.com/JackSmack1971
+                </a>
+              </p>
+            </div>
+            
+            <div class="contact-method">
+              <h3>Email</h3>
+              <p>
+                <a href="mailto:your.email@example.com">your.email@example.com</a>
+              </p>
+            </div>
+            
+            <div class="contact-method">
+              <h3>Social Media</h3>
+              <p>
+                Connect with me on your preferred platform
+              </p>
+            </div>
+          </div>
+          
+          <div class="contact-note">
+            <p>
+              <strong>Note:</strong> I typically respond within 24-48 hours. 
+              For urgent matters, please indicate this in your subject line.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+  
+  <footer role="contentinfo">
+    <div class="container">
+      <p>&copy; 2025 JackSmack1971. All rights reserved.</p>
+      <p>
+        <a href="https://github.com/JackSmack1971" target="_blank" rel="noopener noreferrer">GitHub</a> •
+        <a href="contact.html">Contact</a>
+      </p>
+    </div>
+  </footer>
+  
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
